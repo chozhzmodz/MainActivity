@@ -317,8 +317,7 @@ public class MainActivity extends Activity {
         });
 
           colorAnimation.start();
-
-        
+	    
         //Footer text
         LinearLayout linearLayout3 = new LinearLayout(this);
         RelativeLayout.LayoutParams layoutParams5 = new RelativeLayout.LayoutParams(-1, -2);
@@ -327,21 +326,19 @@ public class MainActivity extends Activity {
         linearLayout3.setOrientation(LinearLayout.VERTICAL);
         
         //Add views
-        //    linearLayout2.addView(imageView);
         linearLayout2.addView(maill);
-       linearLayout2.addView(mail);
+        linearLayout2.addView(mail);
         linearLayout2.addView(linearLayoutc);
-       //linearLayoutc.addView(rd);
         linearLayoutc.addView(rd2);
         linearLayout2.addView(init);
-     //  linearLayout2.addView(initt);
+        linearLayout2.addView(paste);
         relativeLayout.addView(linearLayout);
-       // relativeLayout.addView(Creditos);
         relativeLayout.addView(linearLayout2);
-
+       // linearLayout2.addView(imageView);
+       // linearLayoutc.addView(rd);	
+       // linearLayout2.addView(initt);
+       // relativeLayout.addView(Creditos);	    
        // relativeLayout.addView(linearLayout);
-        
-
         setContentView(relativeLayout);
         TryLoginPHP();
     }
